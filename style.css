@@ -1,0 +1,33 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  background: linear-gradient(to bottom right, #ffe0f0, #fff5fb);
+  color: #444;
+}
+
+h1, h2, h3, h5 {
+  color: #e91e63;
+}
+
+.date {
+  font-style: italic;
+  color: #a67f98;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  background-color: #fff0f6;
+  border: 2px dashed #f48fb1;
+  border-radius: 15px;
+  font-size: 1.1rem;
+}
+
+.gallery img {
+  border: 3px solid #f8bbd0;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
